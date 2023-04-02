@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{0E09718E-8571-480C-A3B5-D0E6C883E662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E3CE45E2-E960-4C21-88F9-9A77508FDAF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D8AEBA93-507B-4A38-871A-C5C83DE33F75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{3F89C86A-BBEF-417A-A414-64564A4C7FBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrder.Domain", "FoodOrder.Domain\FoodOrder.Domain.csproj", "{837D57B1-0DB2-4214-A576-4741342C3505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrder.Infrastructure", "FoodOrder.Infrastructure\FoodOrder.Infrastructure.csproj", "{D1727B10-F8D6-4347-8C11-F221D6F42878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrder.Api", "FoodOrder.Api\FoodOrder.Api.csproj", "{4EAFE6E8-82C3-41B9-A411-1D54633F6672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrder.Application", "FoodOrder.Application\FoodOrder.Application.csproj", "{247CEFC6-D562-49D7-8D83-E196042F3753}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{837D57B1-0DB2-4214-A576-4741342C3505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837D57B1-0DB2-4214-A576-4741342C3505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837D57B1-0DB2-4214-A576-4741342C3505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837D57B1-0DB2-4214-A576-4741342C3505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1727B10-F8D6-4347-8C11-F221D6F42878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1727B10-F8D6-4347-8C11-F221D6F42878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1727B10-F8D6-4347-8C11-F221D6F42878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1727B10-F8D6-4347-8C11-F221D6F42878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EAFE6E8-82C3-41B9-A411-1D54633F6672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAFE6E8-82C3-41B9-A411-1D54633F6672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAFE6E8-82C3-41B9-A411-1D54633F6672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAFE6E8-82C3-41B9-A411-1D54633F6672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247CEFC6-D562-49D7-8D83-E196042F3753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247CEFC6-D562-49D7-8D83-E196042F3753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247CEFC6-D562-49D7-8D83-E196042F3753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247CEFC6-D562-49D7-8D83-E196042F3753}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{837D57B1-0DB2-4214-A576-4741342C3505} = {3F89C86A-BBEF-417A-A414-64564A4C7FBC}
+		{D1727B10-F8D6-4347-8C11-F221D6F42878} = {E3CE45E2-E960-4C21-88F9-9A77508FDAF7}
+		{4EAFE6E8-82C3-41B9-A411-1D54633F6672} = {D8AEBA93-507B-4A38-871A-C5C83DE33F75}
+		{247CEFC6-D562-49D7-8D83-E196042F3753} = {0E09718E-8571-480C-A3B5-D0E6C883E662}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {754B1658-D311-49DB-BEB0-C2E85CE8E201}
+	EndGlobalSection
+EndGlobal
